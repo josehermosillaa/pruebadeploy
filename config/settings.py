@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-y^is07fm5+l1t)slikiw3#od&wa+)l+qk7jnc8ihb&o5(jt-$="
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["172.31.4.141"]
 
 
 # Application definition
@@ -94,7 +94,7 @@ DATABASES = {
         "NAME": "project_orm_django",
         "USER": "userdjango",
         "PASSWORD": "userdjango",
-        "HOST": "127.0.0.1",
+        "HOST": "172.31.4.141",
         "PORT": "5432",
     }
 }
