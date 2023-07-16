@@ -94,7 +94,7 @@ DATABASES = {
         "NAME": "project_orm_django",
         "USER": "userdjango",
         "PASSWORD": "userdjango",
-        "HOST": "172.31.4.141",
+        "HOST": "localhost",
         "PORT": "5432",
     }
 }
