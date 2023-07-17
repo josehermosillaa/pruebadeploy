@@ -7,4 +7,4 @@ pip install -r requirements.txt
 python manage.py collectstatic --no-input
 python manage.py makemigrations
 python manage.py migrate
-python manage.py createsuperuser2 --username admin2 --password mysecretadminpassword
+python manage.py createsuperuser --username admin --password mysecretadminpassword
