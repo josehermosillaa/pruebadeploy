@@ -8,4 +8,4 @@ python manage.py collectstatic --no-input
 python manage.py makemigrations
 python manage.py migrate
 
-python manage.py createsuperuser --username myuser --email myemail@example.com --password mypassword
+python manage.py createsuperuser --username myuser --email myemail@example.com 
